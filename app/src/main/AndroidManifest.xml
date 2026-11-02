@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 날씨용 대략적 위치. 위치는 앱 화면(포그라운드)에서만 새로 받아 저장한다. -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- At a Glance 일정 카드 -->
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+
+    <!-- 날씨 위젯을 누르면 열 기기의 날씨 앱(WeatherApps). Android 11+ 패키지 가시성. -->
+    <queries>
+        <package android:name="com.sec.android.daemonapp" />
+        <package android:name="com.miui.weather2" />
+        <package android:name="com.coloros.weather2" />
+        <package android:name="com.oplus.weather" />
+        <package android:name="net.oneplus.weather" />
+        <package android:name="com.vivo.weather" />
+        <package android:name="com.huawei.android.totemweather" />
+        <package android:name="com.hihonor.android.totemweather" />
+        <package android:name="com.asus.weathertime" />
+        <package android:name="com.lge.sizechangable.weather" />
+        <package android:name="com.google.android.apps.weather" />
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.APP_WEATHER" />
+        </intent>
+    </queries>
+
+    <application
+        android:name=".PartKitApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PartKit">
+
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".glance.ataglance.AtAGlanceReceiver"
+            android:exported="true"
+            android:label="@string/widget_at_a_glance">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_at_a_glance" />
+        </receiver>
+
+        <!-- At a Glance 날짜 갱신: 자정 알람(명시적 인텐트)과 시스템 시각/시간대/언어 변경 -->
+        <receiver
+            android:name=".glance.ataglance.DateTickReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".glance.weather.CurrentWeatherReceiver"
+            android:exported="true"
+            android:label="@string/widget_weather_current">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_weather_current" />
+        </receiver>
+
+        <receiver
+            android:name=".glance.weather.ForecastWeatherReceiver"
+            android:exported="true"
+            android:label="@string/widget_weather_forecast">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_weather_forecast" />
+        </receiver>
+
+        <receiver
+            android:name=".glance.weather.HourlyWeatherReceiver"
+            android:exported="true"
+            android:label="@string/widget_weather_hourly">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_weather_hourly" />
+        </receiver>
+
+        <receiver
+            android:name=".glance.weather.DailyWeatherReceiver"
+            android:exported="true"
+            android:label="@string/widget_weather_daily">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_weather_daily" />
+        </receiver>
+    </application>
+</manifest>

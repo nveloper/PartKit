@@ -1,0 +1,12 @@
+.gradle/
+.kotlin/
+.idea/
+.claude/
+*.iml
+build/
+app/build/
+local.properties
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

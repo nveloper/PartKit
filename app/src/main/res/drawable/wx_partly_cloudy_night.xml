@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- tools/gen_drawables.py 로 생성됨. 직접 수정하지 말 것. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="48dp" android:height="48dp"
+    android:viewportWidth="48" android:viewportHeight="48">
+    <path android:pathData="M25.7,20.31L25.45,21.09L25.13,21.85L24.75,22.58L24.3,23.27L23.79,23.91L23.22,24.51L22.6,25.05L21.93,25.53L21.22,25.95L20.47,26.3L19.7,26.59L18.9,26.8L18.09,26.93L17.27,27L16.45,26.98L15.63,26.9L14.82,26.73L14.03,26.5L13.27,26.19L12.54,25.82L11.84,25.37L11.19,24.87L10.58,24.31L10.03,23.7L9.54,23.04L9.11,22.34L8.75,21.6L8.46,20.83L8.23,20.04L8.08,19.23L8.01,18.41L8.01,17.58L8.09,16.76L8.24,15.95L8.46,15.16L8.76,14.39L9.12,13.65L9.55,12.95L10.04,12.29L10.59,11.68L11.2,11.12L11.85,10.62L12.55,10.18L13.28,9.8L14.05,9.5L14.84,9.26L15.64,9.1L16.46,9.02L16.46,9.02L16.18,9.35L15.92,9.7L15.68,10.06L15.46,10.44L15.26,10.83L15.09,11.23L14.94,11.64L14.82,12.06L14.72,12.48L14.64,12.91L14.6,13.34L14.57,13.78L14.57,14.21L14.6,14.65L14.66,15.08L14.74,15.51L14.84,15.93L14.97,16.35L15.13,16.76L15.3,17.16L15.5,17.54L15.73,17.92L15.97,18.28L16.24,18.62L16.52,18.95L16.83,19.26L17.15,19.56L17.49,19.83L17.85,20.08L18.22,20.32L18.6,20.52L18.99,20.71L19.4,20.87L19.81,21.01L20.23,21.13L20.66,21.22L21.09,21.28L21.52,21.32L21.96,21.33L22.39,21.32L22.83,21.28L23.26,21.21L23.69,21.12L24.11,21.01L24.52,20.87L24.92,20.7L25.32,20.52L25.7,20.31Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="8" android:startY="9" android:endX="26" android:endY="27" android:startColor="#FFF1F3FF" android:endColor="#FFA9B4E8" />
+        </aapt:attr>
+    </path>
+    <path android:pathData="M15.06,33.92a5.74,5.74 0 1,1 11.48,0a5.74,5.74 0 1,1 -11.48,0ZM19.98,29a9.02,9.02 0 1,1 18.04,0a9.02,9.02 0 1,1 -18.04,0ZM30.64,33.1a6.56,6.56 0 1,1 13.12,0a6.56,6.56 0 1,1 -13.12,0ZM20.8,32.28H37.2V39.66H20.8Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="0" android:startY="19.98" android:endX="0" android:endY="39.66" android:startColor="#FFF7F9FC" android:endColor="#FFB4C0CA" />
+        </aapt:attr>
+    </path>
+</vector>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- tools/gen_drawables.py 로 생성됨. 직접 수정하지 말 것. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="48dp" android:height="48dp"
+    android:viewportWidth="48" android:viewportHeight="48">
+    <path android:pathData="M8.7,24.4a6.3,6.3 0 1,1 12.6,0a6.3,6.3 0 1,1 -12.6,0ZM14.1,19a9.9,9.9 0 1,1 19.8,0a9.9,9.9 0 1,1 -19.8,0ZM25.8,23.5a7.2,7.2 0 1,1 14.4,0a7.2,7.2 0 1,1 -14.4,0ZM15,22.6H33V30.7H15Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="0" android:startY="9.1" android:endX="0" android:endY="30.7" android:startColor="#FFB6C2CB" android:endColor="#FF6B7B88" />
+        </aapt:attr>
+    </path>
+    <path android:pathData="M25,31L18.5,40.5H23.5L21.5,47L30,36.5H25L27.5,31Z" android:fillColor="#FFFFC107" />
+</vector>

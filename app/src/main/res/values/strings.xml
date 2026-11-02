@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PartKit</string>
+
+    <!-- 위젯 이름/설명 (위젯 선택기) -->
+    <string name="widget_at_a_glance">At a Glance</string>
+    <string name="widget_at_a_glance_desc">Date, weather and upcoming events at the top of your home screen</string>
+    <string name="widget_weather_current">Weather · Now</string>
+    <string name="widget_weather_current_desc">Current temperature in an expressive shape</string>
+    <string name="widget_weather_forecast">Weather · Forecast</string>
+    <string name="widget_weather_forecast_desc">Conditions, feels-like and today\'s high and low</string>
+    <string name="widget_weather_hourly">Weather · Hourly</string>
+    <string name="widget_weather_hourly_desc">Forecast for the next six hours</string>
+    <string name="widget_weather_daily">Weather · 5-day</string>
+    <string name="widget_weather_daily_desc">Forecast for the next five days</string>
+
+    <!-- 위젯 본문 -->
+    <string name="default_place">Seoul</string>
+    <string name="weather_loading">Loading weather…</string>
+    <string name="label_now">Now</string>
+    <string name="label_today">Today</string>
+    <string name="high_low">H %1$s  L %2$s</string>
+    <string name="feels_like">Feels like %1$s</string>
+    <string name="glance_rain_from">Rain from %1$s</string>
+    <string name="glance_snow_from">Snow from %1$s</string>
+    <string name="glance_divider" translatable="false">·</string>
+    <string name="glance_untitled_event">(No title)</string>
+
+    <string name="cond_clear">Clear</string>
+    <string name="cond_mostly_clear">Mostly clear</string>
+    <string name="cond_partly_cloudy">Partly cloudy</string>
+    <string name="cond_cloudy">Cloudy</string>
+    <string name="cond_fog">Fog</string>
+    <string name="cond_drizzle">Drizzle</string>
+    <string name="cond_rain">Rain</string>
+    <string name="cond_heavy_rain">Heavy rain</string>
+    <string name="cond_sleet">Sleet</string>
+    <string name="cond_snow">Snow</string>
+    <string name="cond_thunderstorm">Thunderstorm</string>
+
+    <!-- 앱 화면 -->
+    <string name="settings_location">Location</string>
+    <string name="settings_location_default">%1$s (default)</string>
+    <string name="settings_use_current_location">Use current location</string>
+    <string name="settings_location_failed">Couldn\'t get your location</string>
+    <string name="settings_unit">Temperature unit</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_english_only">Show in English</string>
+    <string name="settings_english_only_desc">All PartKit widgets and this screen use English, regardless of the system language</string>
+    <string name="settings_weather_app">Weather app opened from widgets</string>
+    <string name="settings_weather_app_none">No weather app found — widgets open PartKit</string>
+    <string name="settings_weather_app_chooser">Choose each time (multiple weather apps)</string>
+    <string name="settings_weather_app_open">Open</string>
+    <string name="settings_calendar">Calendar events in At a Glance</string>
+    <string name="settings_calendar_on">Showing events starting within an hour</string>
+    <string name="settings_calendar_grant">Allow calendar access</string>
+    <string name="settings_refresh">Refresh weather</string>
+    <string name="settings_updated">Last updated %1$s</string>
+    <string name="settings_never_updated">Not updated yet</string>
+    <string name="settings_add_widgets">Add to home screen</string>
+    <string name="attribution">Weather data by Open-Meteo.com (CC BY 4.0)</string>
+</resources>

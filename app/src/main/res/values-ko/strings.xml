@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_at_a_glance">한눈에 보기</string>
+    <string name="widget_at_a_glance_desc">홈 화면 상단에 날짜, 날씨, 다가오는 일정 표시</string>
+    <string name="widget_weather_current">날씨 · 현재</string>
+    <string name="widget_weather_current_desc">표현력 있는 도형 안에 현재 기온 표시</string>
+    <string name="widget_weather_forecast">날씨 · 예보</string>
+    <string name="widget_weather_forecast_desc">날씨 상태, 체감 온도, 오늘 최고·최저 기온</string>
+    <string name="widget_weather_hourly">날씨 · 시간별</string>
+    <string name="widget_weather_hourly_desc">앞으로 6시간 예보</string>
+    <string name="widget_weather_daily">날씨 · 5일</string>
+    <string name="widget_weather_daily_desc">앞으로 5일 예보</string>
+
+    <string name="default_place">서울</string>
+    <string name="weather_loading">날씨 불러오는 중…</string>
+    <string name="label_now">지금</string>
+    <string name="label_today">오늘</string>
+    <string name="high_low">최고 %1$s  최저 %2$s</string>
+    <string name="feels_like">체감 %1$s</string>
+    <string name="glance_rain_from">%1$s부터 비</string>
+    <string name="glance_snow_from">%1$s부터 눈</string>
+    <string name="glance_untitled_event">(제목 없음)</string>
+
+    <string name="cond_clear">맑음</string>
+    <string name="cond_mostly_clear">대체로 맑음</string>
+    <string name="cond_partly_cloudy">구름 조금</string>
+    <string name="cond_cloudy">흐림</string>
+    <string name="cond_fog">안개</string>
+    <string name="cond_drizzle">이슬비</string>
+    <string name="cond_rain">비</string>
+    <string name="cond_heavy_rain">강한 비</string>
+    <string name="cond_sleet">진눈깨비</string>
+    <string name="cond_snow">눈</string>
+    <string name="cond_thunderstorm">뇌우</string>
+
+    <string name="settings_location">위치</string>
+    <string name="settings_location_default">%1$s (기본값)</string>
+    <string name="settings_use_current_location">현재 위치 사용</string>
+    <string name="settings_location_failed">위치를 가져오지 못했습니다</string>
+    <string name="settings_unit">온도 단위</string>
+    <string name="settings_language">언어</string>
+    <string name="settings_english_only">영어로 표시</string>
+    <string name="settings_english_only_desc">시스템 언어와 관계없이 모든 PartKit 위젯과 이 화면을 영어로 표시합니다</string>
+    <string name="settings_weather_app">위젯을 누르면 여는 날씨 앱</string>
+    <string name="settings_weather_app_none">날씨 앱을 찾지 못함 — 위젯은 PartKit을 엽니다</string>
+    <string name="settings_weather_app_chooser">열 때마다 선택(날씨 앱 여러 개)</string>
+    <string name="settings_weather_app_open">열기</string>
+    <string name="settings_calendar">한눈에 보기에 일정 표시</string>
+    <string name="settings_calendar_on">1시간 안에 시작하는 일정을 표시합니다</string>
+    <string name="settings_calendar_grant">캘린더 접근 허용</string>
+    <string name="settings_refresh">날씨 새로고침</string>
+    <string name="settings_updated">마지막 업데이트 %1$s</string>
+    <string name="settings_never_updated">아직 업데이트되지 않음</string>
+    <string name="settings_add_widgets">홈 화면에 추가</string>
+    <string name="attribution">날씨 데이터: Open-Meteo.com (CC BY 4.0)</string>
+</resources>

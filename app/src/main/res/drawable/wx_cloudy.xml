@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- tools/gen_drawables.py 로 생성됨. 직접 수정하지 말 것. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="48dp" android:height="48dp"
+    android:viewportWidth="48" android:viewportHeight="48">
+    <path android:pathData="M18.1,23.2a4.9,4.9 0 1,1 9.8,0a4.9,4.9 0 1,1 -9.8,0ZM22.3,19a7.7,7.7 0 1,1 15.4,0a7.7,7.7 0 1,1 -15.4,0ZM31.4,22.5a5.6,5.6 0 1,1 11.2,0a5.6,5.6 0 1,1 -11.2,0ZM23,21.8H37V28.1H23Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="0" android:startY="11.3" android:endX="0" android:endY="28.1" android:startColor="#FFD5DDE3" android:endColor="#FF8D9CA8" />
+        </aapt:attr>
+    </path>
+    <path android:pathData="M7.7,32.4a6.3,6.3 0 1,1 12.6,0a6.3,6.3 0 1,1 -12.6,0ZM13.1,27a9.9,9.9 0 1,1 19.8,0a9.9,9.9 0 1,1 -19.8,0ZM24.8,31.5a7.2,7.2 0 1,1 14.4,0a7.2,7.2 0 1,1 -14.4,0ZM14,30.6H32V38.7H14Z">
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startX="0" android:startY="17.1" android:endX="0" android:endY="38.7" android:startColor="#FFF7F9FC" android:endColor="#FFB4C0CA" />
+        </aapt:attr>
+    </path>
+</vector>
